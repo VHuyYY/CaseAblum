@@ -5,44 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb675eff-b28a-415b-a672-9926891318db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/Database/AlbumData.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/Database/SongData.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/Input/Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/Manager/Imanager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/Manager/albumManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/Manager/songManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/Model/Album.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/Model/Song.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/SavaData/ReadAndWriteSong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/Validate/RegexName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/View/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/View/MainMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/View/albumMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/View/songMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Staff/Input/Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Staff/Login/UserAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Staff/Manager/Imanager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Staff/Manager/StudentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Staff/Manager/UserAccountManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Staff/Model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Staff/SaveData/ReadAndWriteUserAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Staff/SaveData/ReadWriteStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Staff/Validate/RegexPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Staff/Validate/RegexUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Staff/Validate/Regexname.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Staff/View/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Staff/View/MainMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Staff/View/StudentMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Staff/View/UserAccountMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/Database/Account.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/Login/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/Manager/UserAccountManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/SavaData/ReadAndWriteAlbum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/SavaData/ReadAndWriteUserAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/Validate/RegexUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/View/userAccountMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/UserAccount.csv" beforeDir="false" afterPath="$PROJECT_DIR$/database/UserAccount.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MVC/Ablum/Database/AlbumData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC/Ablum/Database/AlbumData.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MVC/Ablum/Manager/albumManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC/Ablum/Manager/albumManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MVC/Ablum/Manager/songManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC/Ablum/Manager/songManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MVC/Ablum/View/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC/Ablum/View/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MVC/Ablum/View/albumMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC/Ablum/View/albumMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MVC/Ablum/View/songMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC/Ablum/View/songMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Staff/Validate/RegexUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Staff/Validate/RegexUser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +61,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last.edited.regexp": "Đang Làm Việc",
-    "last_opened_file_path": "C:/Users/Admin/Documents/Huy/New/CaseStudy",
+    "last_opened_file_path": "C:/Module_2/CaseStudy",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -167,6 +145,8 @@
       <workItem from="1728560509311" duration="8373000" />
       <workItem from="1728737757988" duration="4883000" />
       <workItem from="1728997651597" duration="7138000" />
+      <workItem from="1729165187410" duration="11844000" />
+      <workItem from="1729188729513" duration="3894000" />
     </task>
     <servers />
   </component>

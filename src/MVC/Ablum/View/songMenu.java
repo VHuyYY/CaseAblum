@@ -1,15 +1,20 @@
 package MVC.Ablum.View;
 
 import MVC.Ablum.Input.Input;
+import MVC.Ablum.Manager.albumManager;
 import MVC.Ablum.Manager.songManager;
+import MVC.Ablum.Model.Album;
 import MVC.Ablum.Model.Song;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+import static MVC.Ablum.Manager.songManager.*;
+
 public class songMenu {
     private songManager SongManager = new songManager();
+    private albumManager AlbumManager = new albumManager();
 
     Scanner sc = new Scanner(System.in);
 
@@ -22,6 +27,7 @@ public class songMenu {
             System.out.println("3.Xóa Bài Hát");
             System.out.println("4.Xem Tất Cả");
             System.out.println("5.Tìm Kiếm Bài Hát");
+            System.out.println("6.Tìm Kiếm Tiêu Đề Album");
             System.out.println("0.Thoát");
             System.out.println("Vui Lòng Nhập Lựa Chọn Của Bạn!");
             choice = Input.inputNumber();
@@ -41,6 +47,9 @@ public class songMenu {
                 case 5:
                     showSearchMenu();
                     break;
+                case 6:
+                    searchTitleMenu();
+                    break;
                 case 0:
                     System.out.println("Thoát Thành Công!");
                     break;
@@ -49,6 +58,19 @@ public class songMenu {
                     break;
             }
         } while (choice != 0);
+    }
+
+    public void searchTitleMenu() {
+        System.out.println("===== Tìm Kiếm Album Theo Tiêu Đề");
+        System.out.println("Danh Sách Các Tiêu Đề");
+        List<Album> albumList = AlbumManager.getAll();
+        for (Album album : albumList) {
+            System.out.println("ID " + album.getId() + "Tiêu Đề " + album.getTitle());
+        }
+        System.out.println("Nhập Tiêu Đề");
+        String idGenre = sc.nextLine();
+        List<Song> songs = SongManager.searchAlbum(idGenre);
+        songs.forEach(System.out::println);
     }
 
     public void showAddMẹnu() {
@@ -103,7 +125,7 @@ public class songMenu {
         int idDelete = Input.inputNumber();
         int index = SongManager.findIndexById(idDelete);
         if (index != -1) {
-            System.out.println("Bạn có chắc chắn muốn xoá bài hát này không? (y/n): ");
+            System.out.println("Bạn có chắc chắn muốn xoá bài hát này không? (Y/N): ");
             String confirm = Input.inputString().toLowerCase();
             if (confirm.equals("y")) {
                 SongManager.delete(idDelete);

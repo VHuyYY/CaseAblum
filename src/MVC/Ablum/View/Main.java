@@ -1,8 +1,11 @@
 package MVC.Ablum.View;
 
+
+import MVC.Ablum.Manager.UserAccountManager;
+
 public class Main {
     public static void main(String[] args) {
-        MainMenu mainMenu = new MainMenu();
-        mainMenu.showMainMenu();
+        userAccountMenu us = new userAccountMenu();
+        us.displayMenu();
     }
 }

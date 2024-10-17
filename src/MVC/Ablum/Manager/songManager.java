@@ -1,5 +1,6 @@
 package MVC.Ablum.Manager;
 
+import MVC.Ablum.Model.Album;
 import MVC.Ablum.Model.Song;
 import MVC.Ablum.SavaData.ReadAndWriteSong;
 
@@ -58,10 +59,21 @@ public class songManager implements Imanager<Song> {
         }
         return result;
     }
+
     public List<Song> searchGenre(String genre) {
         List<Song> result = new ArrayList<>();
         for (Song song : songList) {
             if (song.getGenre().toLowerCase().contains(genre.toLowerCase())) {
+                result.add(song);
+            }
+        }
+        return result;
+    }
+
+    public List<Song> searchAlbum(String genre) {
+        List<Song> result = new ArrayList<>();
+        for (Song song : songList) {
+            if (song.getGenre() == genre) {
                 result.add(song);
             }
         }

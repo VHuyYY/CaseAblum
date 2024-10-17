@@ -4,7 +4,7 @@ import Staff.Input.Input;
 
 public class RegexUser {
     public static String validateUserName() {
-        String regex = "^[a-zA-Z0-9]{4,16}$";
+        String regex = "^[a-zA-Z0-9]{3,16}$";
         do {
             System.out.print("Nhập tên tài khoản: ");
             String username = Input.inputstring();
@@ -17,14 +17,14 @@ public class RegexUser {
     }
 
     public static String validatePassword() {
-        String regex = "^[a-zA-Z0-9@#$%^&+=]{4,16}$";
+        String regex = "^[a-zA-Z0-9@#$%^&+=]{3,16}$";
         do {
             System.out.print("Nhập mật khẩu: ");
             String password = Input.inputstring();
             if (password.matches(regex)) {
                 return password;
             } else {
-                System.out.println("Mật khẩu sai định dạng! Yêu cầu từ 4 đến 16 ký tự, bao gồm chữ, số và ký tự đặc biệt.");
+                System.out.println("Mật khẩu sai định dạng! Yêu cầu từ 3 đến 16 ký tự, bao gồm chữ, số và ký tự đặc biệt.");
             }
         } while (true);
     }
