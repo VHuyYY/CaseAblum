@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bb675eff-b28a-415b-a672-9926891318db" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseStudy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/Database/AlbumData.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/Database/SongData.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/Input/Input.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/Manager/Imanager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/Manager/albumManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/Manager/songManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/Model/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/Model/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/SavaData/ReadAndWriteSong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/Validate/RegexName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/View/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/View/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/View/albumMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/View/songMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Staff/Input/Input.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Staff/Login/UserAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Staff/Manager/Imanager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Staff/Manager/StudentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Staff/Manager/UserAccountManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Staff/Model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Staff/SaveData/ReadAndWriteUserAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Staff/SaveData/ReadWriteStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Staff/Validate/RegexPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Staff/Validate/RegexUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Staff/Validate/Regexname.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Staff/View/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Staff/View/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Staff/View/StudentMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Staff/View/UserAccountMenu.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2mt4CKK0M4pTFEXI0nE4bMpHMJ7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.MVC.Ablum.View.Main.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Staff.View.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.preview.features.used": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last.edited.regexp": "Đang Làm Việc",
+    "last_opened_file_path": "C:/Users/Admin/Documents/Huy/New/CaseStudy",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Module_2/CaseStudy/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Module_2\CaseStudy\src\Staff\Validate" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MVC.Ablum.View.Main">
+    <configuration name="MVC.Ablum.View.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MVC.Ablum.View.Main" />
+      <module name="CaseStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MVC.Ablum.View.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Staff.Validate.View.Main" />
+      <module name="CaseStudy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Staff.View.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Staff.View.Main" />
+      <module name="CaseStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Staff.View.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MVC.Ablum.View.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Staff.View.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb675eff-b28a-415b-a672-9926891318db" name="Changes" comment="" />
+      <created>1727882411957</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727882411957</updated>
+      <workItem from="1727882413129" duration="17973000" />
+      <workItem from="1728008598001" duration="732000" />
+      <workItem from="1728009351700" duration="2274000" />
+      <workItem from="1728031592837" duration="2154000" />
+      <workItem from="1728130214219" duration="8104000" />
+      <workItem from="1728141263945" duration="2548000" />
+      <workItem from="1728387974742" duration="12839000" />
+      <workItem from="1728560509311" duration="8373000" />
+      <workItem from="1728737757988" duration="4883000" />
+      <workItem from="1728997651597" duration="7138000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Staff/Validate/RegexPhone.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NumberFormatException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
