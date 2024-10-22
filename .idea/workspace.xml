@@ -5,22 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb675eff-b28a-415b-a672-9926891318db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/Database/Account.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/Login/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/Manager/UserAccountManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/SavaData/ReadAndWriteAlbum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/SavaData/ReadAndWriteUserAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/Validate/RegexUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MVC/Ablum/View/userAccountMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/UserAccount.csv" beforeDir="false" afterPath="$PROJECT_DIR$/database/UserAccount.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MVC/Ablum/Database/Account.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC/Ablum/Database/Account.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MVC/Ablum/Database/AlbumData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC/Ablum/Database/AlbumData.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MVC/Ablum/Manager/albumManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC/Ablum/Manager/albumManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MVC/Ablum/Database/SongData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC/Ablum/Database/SongData.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MVC/Ablum/Manager/songManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC/Ablum/Manager/songManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MVC/Ablum/View/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC/Ablum/View/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MVC/Ablum/View/albumMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC/Ablum/View/albumMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MVC/Ablum/Model/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC/Ablum/Model/Song.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MVC/Ablum/View/songMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC/Ablum/View/songMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Staff/Validate/RegexUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Staff/Validate/RegexUser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,30 +39,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.MVC.Ablum.View.Main.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Staff.View.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.preview.features.used": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last.edited.regexp": "Đang Làm Việc",
-    "last_opened_file_path": "C:/Module_2/CaseStudy",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Module_2/CaseStudy/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.MVC.Ablum.View.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Staff.View.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last.edited.regexp&quot;: &quot;Đang Làm Việc&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Module_2/CaseStudy&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Module_2/CaseStudy/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Module_2\CaseStudy\src\Staff\Validate" />
@@ -146,7 +137,11 @@
       <workItem from="1728737757988" duration="4883000" />
       <workItem from="1728997651597" duration="7138000" />
       <workItem from="1729165187410" duration="11844000" />
-      <workItem from="1729188729513" duration="3894000" />
+      <workItem from="1729188729513" duration="4216000" />
+      <workItem from="1729337547199" duration="1719000" />
+      <workItem from="1729340889270" duration="3135000" />
+      <workItem from="1729345433434" duration="2713000" />
+      <workItem from="1729598332987" duration="191000" />
     </task>
     <servers />
   </component>

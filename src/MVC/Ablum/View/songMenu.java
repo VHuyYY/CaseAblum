@@ -60,6 +60,7 @@ public class songMenu {
         } while (choice != 0);
     }
 
+
     public void searchTitleMenu() {
         System.out.println("===== Tìm Kiếm Album Theo Tiêu Đề");
         System.out.println("Danh Sách Các Tiêu Đề");

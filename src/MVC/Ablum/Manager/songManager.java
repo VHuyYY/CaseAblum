@@ -70,7 +70,7 @@ public class songManager implements Imanager<Song> {
         return result;
     }
 
-    public List<Song> searchAlbum(String genre) {
+        public List<Song> searchAlbum(String genre) {
         List<Song> result = new ArrayList<>();
         for (Song song : songList) {
             if (song.getGenre() == genre) {
@@ -79,4 +79,5 @@ public class songManager implements Imanager<Song> {
         }
         return result;
     }
+
 }
